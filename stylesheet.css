@@ -1,0 +1,46 @@
+
+
+body {margin-top: 20px;
+      background-color: darkseagreen;
+      }
+
+
+.product-info{
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 14px 16px 19px;
+    background-color: beige;
+    display: block;
+        }
+
+h1 {font-size: 05vw;
+    text-align: center;
+    }
+
+
+h6 {
+}
+
+p { 
+
+swatches li {border-radius: 50%}
+
+
+.img {float: right; 
+    max-width: 10%;
+    height: auto;
+    display: block;
+  overflow: hidden;
+    
+  
+}
+
+.clearfix: :after {
+  content: "";
+  clear: both;
+  display: table;  
+}
