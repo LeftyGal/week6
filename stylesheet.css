@@ -1,7 +1,11 @@
 
 
-body {margin-top: 20px;
-      background-color: darkseagreen;
+body {margin-top: 80px;
+      background-color: lightgrey;
+      width: px;
+      border: 25px solid purple;
+      padding: 25px;
+      margin: 25px;
       }
 
 
@@ -11,11 +15,26 @@ body {margin-top: 20px;
     display: flex;   
     flex-wrap: wrap;
     font-size: 12px;
-    line-height: 20px;
-    padding: 10px 14px 16px 19px;
+    line-height: 30px;
+    padding: 0px 0px 15px 25px;
     background-color: beige;
     display: block;
         }
+
+.rating {color: black;
+        background-color: beige;} 
+
+
+.clearfix: :after {
+  content: "";
+  clear: both;
+  display: table;  
+}
+
+.container {
+            display: table;
+            content: "";
+            box-sizing: border-box;}
 
 h1 {font-size: 05vw;
     text-align: center;
@@ -29,18 +48,5 @@ p {
 
 swatches li {border-radius: 50%}
 
-
-.img {float: right; 
-    max-width: 10%;
-    height: auto;
-    display: block;
-  overflow: hidden;
     
-  
-}
 
-.clearfix: :after {
-  content: "";
-  clear: both;
-  display: table;  
-}
