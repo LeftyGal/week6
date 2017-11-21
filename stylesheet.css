@@ -21,7 +21,7 @@ body {margin-top: 80px;
         background-color: beige;} 
 
 img.resize {
-  width: auto
+  width: auto;
   height: auto;
   max-height: 100%;
   max-width: 100%;
@@ -32,7 +32,7 @@ img.resize {
         width: -75px; 
         background-repeat: no-repeat;
         margin: 
-        height: 20px;
+        height:20px;
         }
 
 .clearfix:after {
