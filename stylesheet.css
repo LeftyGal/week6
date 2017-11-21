@@ -10,7 +10,7 @@ body {margin-top: 80px;
 .product-info{
     display: flex;   
     flex-wrap: wrap;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 30px;
     padding: 0px 0px 15px 25px;
     background-color: beige;
@@ -21,9 +21,12 @@ body {margin-top: 80px;
         background-color: beige;} 
 
 img.resize {
-  width: 15%;
+  width: auto
   height: auto;
-}
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+    }
 
 .float {float: left;
         width: -75px; 
@@ -55,8 +58,19 @@ h1 {font-size: 05vw;
     text-align: center;
     }
 
-.swatches bg-black {background-color: black;
-    border-radius: 50%}
+.button  {
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  background-color: #008CBA; /* Blue */
+  background-color: #008000; /* Green */ 
+  background-color: #e7e7e7; color: black; /* Gray */ 
+  background-color: #555555;} /* grey */
+
+
  
 
   
