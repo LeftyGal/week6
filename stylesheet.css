@@ -58,17 +58,9 @@ h1 {font-size: 05vw;
     text-align: center;
     }
 
-.button  {
-    border: none;
-    padding: 15px 32px;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
+.swatches  {
     border-radius: 50%;
-  background-color: #008CBA; /* Blue */
-  background-color: #008000; /* Green */ 
-  background-color: #e7e7e7; color: black; /* Gray */ 
-  background-color: #555555;} /* grey */
+  
 
 
  
